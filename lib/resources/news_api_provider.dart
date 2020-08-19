@@ -4,7 +4,7 @@ import 'dart:convert';
 
 class NewsApiProvider {
   Client client = Client();
-  final _apiKey = 'c4b678a468fc46e499df1aad3b98b714';
+  final _apiKey = 'put your key here';
   final _baseUrl = "https://newsapi.org/v2/";
 
    fetchNewsList(int id,[String keyWord]) async {
