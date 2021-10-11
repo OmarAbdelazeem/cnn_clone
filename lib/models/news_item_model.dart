@@ -1,5 +1,3 @@
-import 'package:rxdart/rxdart.dart';
-//import 'package:timeago/timeago.dart';
 class ItemModel {
   String status;
   int _totalResults;
@@ -24,7 +22,6 @@ class ItemModel {
     articles = temp;
   }
 
-//  List<Article> get articles => _articles;
 
   int get totalResults => _totalResults;
 }
@@ -52,4 +49,4 @@ class Article {
 
 }
 
-List<Article> savedItems = List<Article>();
+// List<Article> savedItems = List<Article>();

@@ -28,18 +28,24 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
-  http: ^0.12.0+4
-  rxdart: ^0.18.0
-  flutter_webview_plugin: ^0.3.10+1
-  date_format: ^1.0.8
+  http: ^0.13.4
+  rxdart: ^0.27.2
+  flutter_webview_plugin: ^0.4.0
+  date_format: ^2.0.4
   timeago:
-  intl: ^0.16.1
-  flutter_svg:
-  webview_flutter: ^0.3.22+1
+  intl: ^0.17.0
+  flutter_svg: ^0.22.0
+  webview_flutter: ^2.1.1
+  flutter_bloc:
+  get_it:
   share:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+#dependency_overrides:
+#    image:
+#    xml:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

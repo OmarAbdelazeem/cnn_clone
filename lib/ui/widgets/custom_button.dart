@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class CustomButton extends StatelessWidget {
+class CustomTextButton extends StatelessWidget {
   final title;
 
-  CustomButton(this.title);
+  CustomTextButton(this.title);
 
   @override
   Widget build(BuildContext context) {

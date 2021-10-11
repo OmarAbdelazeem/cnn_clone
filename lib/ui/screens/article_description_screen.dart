@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-class DescriptionPage extends StatelessWidget {
-  static String tag = 'description-page';
-
-  DescriptionPage([this.urlNews]);
-
+class ArticleDescriptionScreen extends StatelessWidget {
   final String urlNews;
+  ArticleDescriptionScreen(this.urlNews);
 
   Widget build(BuildContext context) {
     return Scaffold(
