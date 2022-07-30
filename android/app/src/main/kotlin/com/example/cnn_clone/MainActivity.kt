@@ -1,4 +1,4 @@
-package com.example.testbloc12
+package com.example.cnn_clone
 
 import io.flutter.embedding.android.FlutterActivity
 

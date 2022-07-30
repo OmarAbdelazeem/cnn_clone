@@ -51,6 +51,7 @@ class _MainScreenState extends State<MainScreen> {
         currentIndex: _selectedIndex,
         items: [
           BottomNavigationBarItem(
+            label: "",
             activeIcon: SvgPicture.asset(
               AppAssets.homeDark,
               height: 25,
@@ -63,12 +64,9 @@ class _MainScreenState extends State<MainScreen> {
               width: 25,
               color: Colors.grey,
             ),
-            title: Text(
-              '',
-              style: TextStyle(fontSize: 0),
-            ),
           ),
           BottomNavigationBarItem(
+            label: "",
             activeIcon: SvgPicture.asset(
               AppAssets.searchDark,
               height: 25,
@@ -81,17 +79,13 @@ class _MainScreenState extends State<MainScreen> {
               width: 25,
               color: Colors.grey,
             ),
-            title: Text(
-              '',
-              style: TextStyle(fontSize: 0),
-            ),
           ),
           BottomNavigationBarItem(
+            label: "",
             icon: Icon(
               Icons.bookmark_border,
               size: 30,
             ),
-            title: Text('', style: TextStyle(fontSize: 0)),
             activeIcon: Icon(
               Icons.bookmark,
               color: Color(0xffcb2026),
@@ -99,14 +93,12 @@ class _MainScreenState extends State<MainScreen> {
             ),
           ),
           BottomNavigationBarItem(
-              icon: Icon(
-                Icons.settings,
-                size: 30,
-              ),
-              title: Text(
-                '',
-                style: TextStyle(fontSize: 0),
-              )),
+            label: "",
+            icon: Icon(
+              Icons.settings,
+              size: 30,
+            ),
+          ),
         ],
       ),
     );

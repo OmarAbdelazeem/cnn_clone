@@ -7,5 +7,4 @@ class Routes{
     static const String savedScreen = '/saved_screen';
     static const String searchScreen = '/search_screen';
     static const String settingsScreen = '/settings_screen';
-
 }
